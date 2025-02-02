@@ -50,3 +50,41 @@
 --> after that we creaate model
 
 --> on that model we do query od database
+
+interface ---> schema ---> model
+
+
+# backend setup
+1. npm init
+2. give package name (mongoose-setup) and keep clicking enter
+3. go to typescript --> get started --> download
+4. npm install typescript --save-dev (install on development dependency)
+![alt text](image.png)
+
+5. go to express  documentation
+6. npm install express --save (already dev dependency is there)
+![alt text](image-1.png)
+
+7. go to mongoose documentation
+8. npm install mongoose --save
+![alt text](image-2.png)
+
+9. get the hello world example code from express
+10. open a src folder
+11. open a server.js file in the src folder and paste the  copied code
+12. go to ts-node-dev
+13. npm i ts-node-dev --save-dev
+14. go to github docmentation of ts-node-dev or from the usage option
+15. add "tsnd --respawn server.ts" inside script
+16. define the server folder path
+![alt text](image-3.png)
+
+17. now try "npm run dev"
+18. in server "const mongoose = require('mongoose')"
+19. add the main function from mongoose
+
+![alt text](image-4.png)
+
+20. call the main() funcion to run
+21. better keep the main function inside try and catch
+![alt text](image-5.png)
