@@ -20,7 +20,7 @@ async function main() {
 main() // call the main function to run it
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Database is runniing')
 })
 
 app.listen(port, () => {

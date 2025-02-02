@@ -71,7 +71,7 @@ interface ---> schema ---> model
 
 9. get the hello world example code from express
 10. open a src folder
-11. open a server.js file in the src folder and paste the  copied code
+11. open a server.ts file in the src folder and paste the  copied code
 12. go to ts-node-dev
 13. npm i ts-node-dev --save-dev
 14. go to github docmentation of ts-node-dev or from the usage option
@@ -88,3 +88,5 @@ interface ---> schema ---> model
 20. call the main() funcion to run
 21. better keep the main function inside try and catch
 ![alt text](image-5.png)
+22. npx tsc --init
+23. in package json change main 
