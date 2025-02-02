@@ -67,6 +67,7 @@ interface ---> schema ---> model
 
 7. go to mongoose documentation
 8. npm install mongoose --save
+
 ![alt text](image-2.png)
 
 9. get the hello world example code from express
@@ -89,4 +90,4 @@ interface ---> schema ---> model
 21. better keep the main function inside try and catch
 ![alt text](image-5.png)
 22. npx tsc --init
-23. in package json change main 
+23. in package json change main ![alt text](image-6.png)
