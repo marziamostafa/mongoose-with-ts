@@ -14,6 +14,8 @@ app.use(express.urlencoded({extended: true}))
 
 
 app.get('/', (req:Request, res:Response, next:NextFunction) => {
+
+    // insetring  database
     res.send('Database is runniing')
     next(); // passing control to the next middleware
 })
