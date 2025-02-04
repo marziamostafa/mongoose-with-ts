@@ -97,5 +97,16 @@ interface ---> schema ---> model
 2. all app related things will be there except the app.listen, as app will be listened after the database connection
 3. typoes for cors and express wont be there so we need to install 3rd party type definition
 4. npm i --save-dev @types/cors
-4. npm i --save-dev @types/express 
-5. 
+5. npm i --save-dev @types/express 
+
+
+
+## next:NextFunction
+a function that is used to pass control from one middleware to the next
+
+to know details search the npm and search for express package or cors
+
+## app.use(express.urlencoded({extended: true}))
+app.use(): This is a method used to add middleware to an Express application. Middleware is a function that processes incoming requests before they reach your route handler.
+
+express.urlencoded():This is a built-in middleware function in Express that parses the URL-encoded data (typically coming from a form submission) into a JavaScript object.
