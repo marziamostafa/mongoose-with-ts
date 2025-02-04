@@ -80,7 +80,7 @@ interface ---> schema ---> model
 16. define the server folder path
 ![alt text](image-3.png)
 
-17. now try "npm run dev"
+17. now try "npm run dev"  (ts won't allow nodemon command as it's an node.js related command)
 18. in server "const mongoose = require('mongoose')"
 19. add the main function from mongoose
 
@@ -91,3 +91,11 @@ interface ---> schema ---> model
 ![alt text](image-5.png)
 22. npx tsc --init
 23. in package json change main ![alt text](image-6.png)
+
+## organize the code
+1. open app.ts
+2. all app related things will be there except the app.listen, as app will be listened after the database connection
+3. typoes for cors and express wont be there so we need to install 3rd party type definition
+4. npm i --save-dev @types/cors
+4. npm i --save-dev @types/express 
+5. 
