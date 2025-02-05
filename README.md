@@ -109,7 +109,7 @@ to know details search the npm and search for express package or cors
 ## app.use(express.urlencoded({extended: true}))
 app.use(): This is a method used to add middleware to an Express application. Middleware is a function that processes incoming requests before they reach your route handler.
 
-express.urlencoded():This is a built-in middleware function in Express that parses the URL-encoded data (typically coming from a form submission) into a JavaScript object.
+express.urlencoded():This is a built-in middleware function in Express that parses the URL-encoded data (typically coming from a form submission) into a JavaScript ob.ject
 
 ## inserting a data into mpongoDb
 interface--> schema --> model --> database query

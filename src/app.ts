@@ -10,12 +10,17 @@ app.use(cors())
 
 // parse data
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: true})) //parses the URL-encoded or json data into a JavaScript object.
+
 
 
 app.get('/', (req:Request, res:Response, next:NextFunction) => {
 
-    // insetring  database
+    // insetring  a test data into mongodb
+
+
+    
+
     res.send('Database is runniing')
     next(); // passing control to the next middleware
 })
